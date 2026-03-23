@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mis Arboles CECyT 19</title>
+    <style>
+        body {
+            background-color: #f4f4f4; 
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .titulo {
+            color: #6a1b31; 
+            font-size: 40px;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .contenedor-botones {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 15px; 
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        button {
+            background-color: #228B22;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #006400; 
+            transform: scale(1.05); 
+        }
+        a {
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="titulo">Listado de Árboles - CECyT 19</div>
+    <hr width="50%">
+
+    <div class="contenedor-botones">
+        <a href="Arbol 1.html"><button>Arbol 1</button></a>
+        <a href="Arbol 2.html"><button>Arbol 2</button></a>
+        <a href="Arbol 3.html"><button>Arbol 3</button></a>
+        <a href="Arbol 4.html"><button>Arbol 4</button></a>
+        
+        <a href="Arbol 5.html"><button>Arbol 5</button></a>
+        <a href="Arbol 6.html"><button>Arbol 6</button></a>
+        <a href="Arbol 7.html"><button>Arbol 7</button></a>
+        <a href="Arbol 8.html"><button>Arbol 8</button></a>
+        
+        <a href="Arbol 9.html"><button>Arbol 9</button></a>
+        <a href="Arbol 10.html"><button>Arbol 10</button></a>
+        <a href="Arbol 11.html"><button>Arbol 11</button></a>
+        <a href="Arbol 12.html"><button>Arbol 12</button></a>
+        
+        <a href="Arbol 13.html"><button>Arbol 13</button></a>
+        <a href="Arbol 14.html"><button>Arbol 14</button></a>
+        <a href="Arbol 15.html"><button>Arbol 15</button></a>
+        <a href="Arbol 16.html"><button>Arbol 16</button></a>
+        
+        <a href="Arbol 17.html"><button>Arbol 17</button></a>
+        <a href="Arbol 18.html"><button>Arbol 18</button></a>
+        <a href="Arbol 19.html"><button>Arbol 19</button></a>
+        <a href="Arbol 1.html"><button>Arbol 20</button></a>
+    </div>
+
+    <footer style="margin-top: 50px; color: #777;">
+     
+    </footer>
+
+</body>
+
+</html>
